@@ -1,0 +1,130 @@
+@import url(reset.css);
+html {
+  font-size: 10px;
+  font-family: 'Abhaya Libre', sans-serif; }
+
+body {
+  font-size: 2rem;
+  background-color: black; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+nav {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  font-size: 2.5rem;
+  background-color: #00A06A; }
+  nav a {
+    display: block;
+    width: 15%;
+    text-align: center;
+    padding: 2rem;
+    transition: all 1s ease;
+    margin: 3vh; }
+  nav a:hover {
+    border-bottom: 3vh solid #0908AD; }
+  nav .logo {
+    text-align: center;
+    border: 1px solid black;
+    width: 30%; }
+
+section {
+  padding: 5vh;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem; }
+  section p {
+    line-height: 3rem;
+    margin-bottom: 2rem; }
+  section h2 h1 {
+    font-size: 2.3rem; }
+  section a {
+    color: blue; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5vh;
+  background-color: #097BB7; }
+
+.scriptContainer {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap; }
+  .scriptContainer .member {
+    height: 28vh;
+    width: 28vh;
+    border: 1px solid red;
+    margin: 2vh;
+    text-align: center; }
+  .scriptContainer a {
+    color: black;
+    display: block; }
+
+#burgerMenu {
+  background: url(img/burger.png) center/cover no-repeat;
+  height: 5vh;
+  width: 5vh;
+  margin: 0 auto;
+  display: none; }
+
+#toTop {
+  background-color: #13B709;
+  height: 10vh;
+  width: 10vh;
+  font-size: 5rem;
+  opacity: 0.3;
+  z-index: 10;
+  position: fixed;
+  border: 1px solid #e0dcdc;
+  border-radius: 8px;
+  bottom: 5vh;
+  right: 5vh;
+  text-align: center; }
+  #toTop a {
+    color: #562B45;
+    text-decoration: none;
+    display: block;
+    padding: 15px; }
+
+@media only screen and (max-width: 1200px) {
+  #burgerMenu {
+    display: block; }
+
+  header {
+    height: auto; }
+
+  nav {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: auto;
+    position: static;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    font-size: 3rem;
+    background-color: #00A06A; }
+    nav a {
+      width: 100%;
+      text-align: center;
+      padding: 2rem;
+      transition: all 1s ease;
+      clear: both; }
+    nav a:hover {
+      font-size: 5rem; }
+    nav div {
+      text-align: center;
+      border: 1px solid black;
+      width: 10%; } }
+
+/*# sourceMappingURL=style.css.map */
