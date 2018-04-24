@@ -55,20 +55,6 @@ section {
   padding: 5vh;
   background-color: #097BB7; }
 
-.scriptContainer {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap; }
-  .scriptContainer .member {
-    height: 28vh;
-    width: 28vh;
-    border: 1px solid red;
-    margin: 2vh;
-    text-align: center; }
-  .scriptContainer a {
-    color: black;
-    display: block; }
-
 #burgerMenu {
   background: url(img/burger.png) center/cover no-repeat;
   height: 5vh;
